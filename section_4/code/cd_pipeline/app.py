@@ -5,18 +5,11 @@ app = Flask(__name__)
 
 # list of cat images
 images = [
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26383-1381845104-25.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26358-1381845043-13.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-25329-1381845415-0.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-23859-1381845509-0.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-19708-1381845008-7.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-19667-1381844937-10.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-3409-1381844582-13.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-3391-1381844336-26.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-1376-1381846217-0.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26390-1381844163-18.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26388-1381844103-11.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-27162-1381845360-0.gif"
+    "https://ko.wikipedia.org/wiki/GIF#/media/%ED%8C%8C%EC%9D%BC:Rotating_earth_(large).gif",
+    "https://media1.tenor.com/images/d278f33e1e8305c98f8f6cc8fb40d5ae/tenor.gif?itemid=10744149",
+    "https://media1.tenor.com/images/e65cdc9ce37ae6c0223c4033a4d0a3cb/tenor.gif?itemid=4980602",
+    "https://media1.tenor.com/images/2017f28c4a349252731718c556c91e16/tenor.gif?itemid=14266999",
+    "https://media1.tenor.com/images/eaf41323dccd993b8cbda1d9e24088ae/tenor.gif?itemid=16016616"
 ]
 
 @app.route('/')
